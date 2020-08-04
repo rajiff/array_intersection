@@ -1,6 +1,6 @@
 image: openjdk:11-jdk-alpine
 
-state:
+stages:
     - build
     - test
 
