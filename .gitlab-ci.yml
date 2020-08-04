@@ -1,0 +1,15 @@
+image: openjdk:11-jdk-alpine
+
+state:
+    - build
+    - test
+
+build_java:
+    stage: build
+    script:
+        - javac ArrayIntersectionFinder.java
+
+test_java:
+    stage: test
+    script:
+        - java ArrayIntersectionFinder
