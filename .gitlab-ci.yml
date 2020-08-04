@@ -14,4 +14,5 @@ test_java:
     stage: test
     script:
         - ls -l
+        - javac ArrayIntersectionFinder.java
         - java ArrayIntersectionFinder
